@@ -1,0 +1,828 @@
+2023-06-04 14:12:12,947 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 24328 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 14:12:12,962 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 14:12:13,699 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 14:12:13,701 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 14:12:13,724 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-06-04 14:12:14,129 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 14:12:14,136 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 14:12:14,136 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 14:12:14,136 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 14:12:14,283 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 14:12:14,283 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1292 ms
+2023-06-04 14:12:14,401 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 14:12:17,479 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 14:12:18,439 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 14:12:18,451 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 14:12:18,459 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.861 seconds (JVM running for 6.958)
+2023-06-04 14:12:39,856 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 14:12:39,856 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 14:12:39,857 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-06-04 14:12:40,233 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:12:54,069 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:12:55,606 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:13:02,852 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:14:11,749 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:14:12,951 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:14:14,148 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:14:19,455 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:29,535 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:33,072 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:35,333 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:40,209 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:41,870 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:43,771 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:47,774 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:49,667 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:51,373 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:15:53,286 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:07,922 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:14,303 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:19,010 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:22,627 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:25,900 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:33,044 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:16:35,082 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:17:27,999 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:17:32,247 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:17:34,497 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:17:50,774 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:08,421 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:14,487 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:17,916 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:22,639 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:25,414 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:41,849 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:18:42,930 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:19:59,315 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:20:22,641 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:20:23,530 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:20:32,123 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:20:35,326 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:20:36,398 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:21:57,554 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:22:38,353 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:22:41,244 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:22:43,743 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:22:52,160 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:22:53,751 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:22:54,832 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:27,524 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:32,299 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:38,390 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:40,404 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:47,598 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:49,684 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:23:51,689 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:24:38,384 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:24:50,096 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:24:51,706 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:24:54,894 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:24:56,572 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:24:59,122 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:01,012 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:02,546 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:05,391 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:06,316 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:10,673 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:11,595 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:12,704 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:26,056 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:25:29,411 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:26:04,077 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:26:45,318 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:26:46,686 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:27:33,660 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:45,881 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:47,235 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:48,671 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:51,383 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:53,584 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:55,491 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:30:57,239 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:31:00,994 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:32:06,833 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:32:08,174 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:32:40,179 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:32:43,482 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:33:43,346 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:33:49,214 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:33:50,602 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:33:57,461 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:34:54,726 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:34:57,871 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:03,277 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:27,608 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:31,265 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:32,229 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:42,440 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:58,148 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:35:59,332 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:36:02,118 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:36:08,163 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:36:11,120 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:37:07,997 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:37:09,225 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:37:44,797 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:37:51,758 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:38:29,515 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":2}的失物招领
+2023-06-04 14:38:30,191 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":3}的失物招领
+2023-06-04 14:38:36,635 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:39:27,398 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:39:29,456 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:40:12,463 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:40:44,555 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:40:46,730 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:40:47,711 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:40:50,117 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:51:43,052 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 14:51:50,543 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:24:15,756 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:24:18,434 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:24:45,788 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:24:51,702 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:25:02,818 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":2}的失物招领
+2023-06-04 15:25:03,783 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":3}的失物招领
+2023-06-04 15:25:09,171 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的交易
+2023-06-04 15:27:15,692 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:27:20,733 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:27:24,568 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:27:31,081 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:28:44,904 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:29:33,255 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:29:53,479 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:30:15,582 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:30:48,562 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:07,620 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:09,514 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:22,978 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:27,378 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:30,717 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:47,379 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:49,890 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:31:57,572 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:32:13,003 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:32:36,568 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:32:47,364 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:32:57,235 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:33:08,026 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:33:12,610 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:33:17,661 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:34:47,138 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:36:02,730 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:36:06,993 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:36:35,132 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:36:37,131 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:36:51,777 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:36:58,264 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:37:24,094 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:08,878 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:10,685 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:18,800 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:20,275 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:27,481 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:32,583 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:38,475 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:40:49,560 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:41:05,518 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:41:15,128 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:41:18,117 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:41:30,370 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:41:36,642 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:42:21,894 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:42:27,402 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:42:57,246 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:00,649 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:04,680 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:29,894 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:35,960 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:45,437 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:48,948 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:55,941 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:58,171 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:43:59,440 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:44:04,203 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:03,981 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:17,368 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:30,878 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:32,177 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:33,834 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:42,223 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:47,045 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:50,081 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:52,162 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:54,385 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:45:59,251 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:04,320 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:21,590 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:23,007 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:27,257 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:40,208 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:47,284 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:46:59,544 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:48:49,016 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:49:35,590 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:49:41,230 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:49:44,771 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:49:46,150 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:49:52,090 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:49:55,669 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:50:21,743 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:50:30,562 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:50:39,989 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:50:43,148 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:50:48,492 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:50:52,242 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:00,366 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:03,156 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:04,831 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:19,612 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:22,766 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:25,835 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:27,409 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:29,591 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:32,356 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:36,159 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:38,463 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:42,993 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:47,737 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:51:58,529 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:02,931 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:24,580 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:27,446 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:34,526 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:42,102 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:48,480 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:52:57,804 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:06,798 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:09,635 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:22,528 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:27,556 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:29,541 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:31,255 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:33,375 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:36,315 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:49,357 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:53:57,878 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:54:47,627 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:54:50,750 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:55:28,011 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 15:55:54,241 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的交易
+2023-06-04 16:27:50,908 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:28:34,422 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:28:39,127 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:29:05,094 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:29:32,999 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:30:49,675 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:30:54,091 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:31:12,324 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:31:43,511 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:31:49,074 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:31:55,844 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:31:57,193 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:32:00,795 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:32:04,598 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:32:20,398 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:32:43,891 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:32:47,664 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:32:49,911 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:33:11,769 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:33:18,726 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:33:23,919 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:33:45,720 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:33:52,494 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:34:03,773 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:34:16,057 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:34:22,702 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:34:43,974 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:34:46,439 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:00,316 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:03,744 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:06,377 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:07,760 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:08,916 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:11,026 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:12,458 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:14,359 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:16,036 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:17,423 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:19,096 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:20,747 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:33,678 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:41,741 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:52,351 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:35:56,727 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:02,361 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:09,610 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:20,151 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:22,145 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:27,340 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:29,015 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:35,743 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:42,397 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:36:48,890 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:37:01,552 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:37:02,966 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:37:07,628 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:38:09,019 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:38:13,361 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","openid":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的失物招领
+2023-06-04 16:38:13,616 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-5] 查找条件为{"openId":"","openid":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的交易
+2023-06-04 16:39:10,108 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:39:13,285 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的失物招领
+2023-06-04 16:39:13,331 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-3] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的交易
+2023-06-04 16:41:19,335 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 16:41:19,338 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 16:41:24,539 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 6788 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 16:41:24,545 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 16:41:24,969 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 16:41:24,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 16:41:24,989 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-06-04 16:41:25,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 16:41:25,438 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:41:25,439 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 16:41:25,439 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 16:41:25,578 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 16:41:25,578 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1010 ms
+2023-06-04 16:41:25,676 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 16:41:28,639 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 16:41:29,566 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:41:29,580 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 16:41:29,589 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.365 seconds (JVM running for 6.167)
+2023-06-04 16:41:35,384 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 16:41:35,384 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 16:41:35,385 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-06-04 16:41:35,761 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:41:43,033 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的失物招领
+2023-06-04 16:41:43,277 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-7] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的交易
+2023-06-04 16:42:38,176 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:42:39,706 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:42:42,242 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:42:44,800 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:42:46,926 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的失物招领
+2023-06-04 16:42:47,228 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-2] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的交易
+2023-06-04 16:43:09,625 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:43:10,714 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:43:13,151 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:44:15,770 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:44:22,421 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:44:23,862 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:44:25,179 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:44:28,689 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:44:30,471 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的失物招领
+2023-06-04 16:44:30,765 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-7] 查找条件为{"openId":"o6j6s4iUwPHvInlwRrk1eAAUZ4fI","query":"","pageSize":3,"state":"","pageNum":1}的交易
+2023-06-04 16:45:36,809 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:50:15,004 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 16:50:15,007 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 16:50:33,173 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 13932 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 16:50:33,180 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 16:50:33,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 16:50:33,565 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 16:50:33,582 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-06-04 16:50:33,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 16:50:33,930 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:50:33,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 16:50:33,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 16:50:34,040 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 16:50:34,040 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 834 ms
+2023-06-04 16:50:34,133 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 16:50:37,277 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 16:50:38,152 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:50:38,163 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 16:50:38,171 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.294 seconds (JVM running for 6.118)
+2023-06-04 16:50:48,999 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 16:50:49,000 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 16:50:49,001 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-06-04 16:50:49,352 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:50:52,673 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:00,009 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:03,470 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:16,800 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:16,900 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:20,009 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:24,078 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:28,182 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:29,591 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:34,721 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:44,518 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:51:50,217 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:52:22,730 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 16:52:22,733 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 16:52:27,408 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 20292 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 16:52:27,414 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 16:52:27,814 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 16:52:27,815 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 16:52:27,832 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-06-04 16:52:28,168 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 16:52:28,173 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:52:28,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 16:52:28,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 16:52:28,280 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 16:52:28,281 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 841 ms
+2023-06-04 16:52:28,371 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 16:52:31,440 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 16:52:32,327 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:52:32,339 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 16:52:32,347 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.214 seconds (JVM running for 5.995)
+2023-06-04 16:52:45,764 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 16:52:45,768 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 16:52:50,211 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 2596 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 16:52:50,217 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 16:52:50,616 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 16:52:50,617 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 16:52:50,634 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-06-04 16:52:50,986 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 16:52:50,992 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:52:50,993 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 16:52:50,993 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 16:52:51,103 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 16:52:51,103 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 863 ms
+2023-06-04 16:52:51,194 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 16:52:54,364 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 16:52:55,233 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:52:55,244 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 16:52:55,252 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.324 seconds (JVM running for 6.113)
+2023-06-04 16:53:09,267 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 16:53:09,267 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 16:53:09,269 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2023-06-04 16:53:09,610 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:53:42,224 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 16:53:42,227 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 16:53:46,983 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 26972 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 16:53:46,988 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 16:53:47,370 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 16:53:47,371 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 16:53:47,387 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-06-04 16:53:47,716 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 16:53:47,721 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:53:47,721 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 16:53:47,722 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 16:53:47,832 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 16:53:47,833 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 821 ms
+2023-06-04 16:53:47,924 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 16:53:50,913 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 16:53:51,782 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 16:53:51,793 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 16:53:51,801 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.094 seconds (JVM running for 5.881)
+2023-06-04 16:54:08,375 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 16:54:08,375 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 16:54:08,377 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-06-04 16:54:08,738 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:54:38,246 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:54:55,065 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:54:58,175 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:54:59,560 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:57:26,119 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:57:40,654 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:57:51,750 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:57:53,258 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:57:59,006 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:01,525 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:07,745 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:12,992 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:14,373 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:15,968 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:19,433 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:40,222 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:43,551 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:45,416 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:48,929 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:58:57,574 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:00,531 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:04,107 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:12,322 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:13,494 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:19,178 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:38,014 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:47,919 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:49,933 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:51,764 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:55,363 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 16:59:59,728 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:00:05,927 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:02:17,487 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:02:30,826 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:02,572 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:05,459 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:16,002 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:26,898 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:33,104 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:34,596 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:38,652 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:51,111 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:53,357 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:08:54,681 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:09:03,688 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:09:22,487 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:09:34,849 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:09:42,523 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:09:43,992 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:09:48,667 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:10:22,951 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:10:37,500 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:11:08,124 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:11:36,986 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:11:42,349 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:11:49,459 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:11:51,640 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:11:57,187 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:12:00,457 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:12:42,214 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:12:49,151 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:12:52,984 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:13:01,204 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:13:06,331 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:13:08,957 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:13:43,321 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:13:43,415 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:13:55,377 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:14:00,327 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:14:06,173 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:14:10,654 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:14:17,385 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:15:15,973 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:15:52,804 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:20:46,811 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的交易
+2023-06-04 17:22:30,361 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:22:34,120 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:22:48,682 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:22:53,188 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:05,172 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:08,938 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:24,205 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:28,039 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:34,861 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:39,810 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:44,387 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:48,791 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:51,226 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:53,111 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:55,414 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:23:57,477 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:24:11,558 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:24:16,101 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:24:20,701 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:24:36,817 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:07,098 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:13,590 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:15,169 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:30,916 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:33,212 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:44,584 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:52,808 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:25:57,389 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:26:44,263 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:26:51,195 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:26:55,952 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:26:56,044 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:26:58,161 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:02,801 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:04,325 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:09,578 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:16,059 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:37,302 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:42,546 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:27:44,335 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:28:15,710 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:28:21,007 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:28:27,988 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:28:34,401 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:28:38,775 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:28:51,043 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:29:11,596 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:32:51,682 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:17,599 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:30,638 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:32,219 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:36,370 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:46,350 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:48,877 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:33:57,100 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:34:38,345 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:35:07,278 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:35:50,648 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:35:55,664 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:35:58,586 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:37:50,973 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:38:10,416 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:38:22,320 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:38:27,594 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:38:30,655 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:38:33,320 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:39:05,138 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:39:37,294 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:40:10,644 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:40:46,064 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:05,364 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:11,038 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:18,453 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:25,100 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:28,986 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:53,935 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:41:57,228 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:42:10,602 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:42:22,717 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:42:25,601 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:42:48,459 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:42:58,949 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:43:16,598 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:43:21,260 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:43:31,169 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:43:42,004 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:43:54,284 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:44:07,575 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:44:09,304 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:45:21,230 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:45:24,685 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:45:37,131 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:45:52,595 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:04,105 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:08,127 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:14,053 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:16,931 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:23,409 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:34,077 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:39,218 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:51,786 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:46:59,896 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:47:09,578 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:47:16,534 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:47:45,879 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:47:49,654 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:47:55,036 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:00,563 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:04,857 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:07,175 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:08,912 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:10,884 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:14,392 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:16,773 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:21,709 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:21,802 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:25,053 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:55,877 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:48:57,724 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:49:06,680 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:49:14,904 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:49:21,551 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:49:21,647 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:49:37,549 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:49:41,747 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:01,278 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:04,796 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:08,132 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:12,801 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:12,894 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:23,573 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:26,193 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:28,591 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:44,778 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:47,559 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:48,793 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:50:57,693 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:51:05,095 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:51:20,300 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:51:29,638 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:53:12,085 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 17:53:12,088 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 17:53:17,521 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 13544 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 17:53:17,527 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 17:53:17,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 17:53:18,000 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 17:53:18,018 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-06-04 17:53:18,375 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 17:53:18,381 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 17:53:18,382 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 17:53:18,382 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 17:53:18,499 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 17:53:18,499 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 949 ms
+2023-06-04 17:53:18,598 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 17:53:21,628 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 17:53:22,613 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 17:53:22,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 17:53:22,635 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.412 seconds (JVM running for 6.286)
+2023-06-04 17:53:34,617 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 17:53:34,617 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 17:53:34,620 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2023-06-04 17:53:35,102 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:54:30,032 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 17:54:30,035 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 17:54:34,908 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 25592 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 17:54:34,913 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 17:54:35,329 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 17:54:35,330 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 17:54:35,347 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-06-04 17:54:35,680 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 17:54:35,685 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 17:54:35,686 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 17:54:35,686 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 17:54:35,792 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 17:54:35,792 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 856 ms
+2023-06-04 17:54:35,880 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 17:54:38,911 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 17:54:39,831 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 17:54:39,843 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 17:54:39,851 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.22 seconds (JVM running for 5.993)
+2023-06-04 17:54:49,122 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 17:54:49,122 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 17:54:49,124 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2023-06-04 17:54:49,549 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:55:21,637 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:55:45,287 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:55:49,293 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:55:52,219 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:55:55,496 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:56:00,358 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:56:28,744 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:56:50,984 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:57:00,592 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:57:16,479 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:58:12,447 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:58:24,170 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:58:35,033 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:58:40,820 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:58:51,138 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:58:59,791 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:59:08,083 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 17:59:15,629 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 17:59:15,631 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 18:15:39,304 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplication using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 23832 (E:\workspace\swuyu\swuyu\swuyu\target\classes started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 18:15:39,311 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 18:15:39,729 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 18:15:39,731 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 18:15:39,749 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-06-04 18:15:40,105 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-06-04 18:15:40,112 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-04 18:15:40,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-04 18:15:40,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-04 18:15:40,241 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-04 18:15:40,242 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 904 ms
+2023-06-04 18:15:40,339 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 18:15:43,527 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 18:15:44,452 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-06-04 18:15:44,466 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-04 18:15:44,475 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplication in 5.452 seconds (JVM running for 6.313)
+2023-06-04 18:15:56,996 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 18:15:56,996 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-04 18:15:56,998 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-06-04 18:16:16,562 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:17:16,609 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:17:22,359 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:17:32,811 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:17:34,717 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:17:45,002 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:17:59,436 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:21:51,070 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:21:59,676 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:22:05,494 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:22:05,592 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-1] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:22:54,569 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-2] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:26:47,129 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-9] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:27:20,084 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:27:23,834 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":2}的失物招领
+2023-06-04 18:27:35,673 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:28:37,570 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:28:41,168 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-4] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的交易
+2023-06-04 18:28:49,713 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":3,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:28:54,966 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-8] 查找条件为{"openId":"","query":"","pageSize":10,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:29:00,380 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-10] 查找条件为{"openId":"","query":"","pageSize":10,"state":"进行中","pageNum":1}的交易
+2023-06-04 18:29:23,494 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-3] 查找条件为{"openId":"","query":"","pageSize":10,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:29:30,270 INFO com.example.swuyu.controller.TransactionController [http-nio-8081-exec-5] 查找条件为{"openId":"","query":"","pageSize":10,"state":"进行中","pageNum":1}的交易
+2023-06-04 18:29:33,642 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-6] 查找条件为{"openId":"","query":"","pageSize":10,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 18:29:38,973 INFO com.example.swuyu.controller.FoundController [http-nio-8081-exec-7] 查找条件为{"openId":"","query":"手机","pageSize":10,"state":"进行中","pageNum":1}的失物招领
+2023-06-04 19:22:00,503 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.swuyu.SwuyuApplicationTests], using SpringBootContextLoader
+2023-06-04 19:22:00,508 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.example.swuyu.SwuyuApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-06-04 19:22:00,508 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.swuyu.SwuyuApplicationTests]: SwuyuApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-04 19:22:00,587 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.swuyu.SwuyuApplication for test class com.example.swuyu.SwuyuApplicationTests
+2023-06-04 19:22:00,671 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-06-04 19:22:00,692 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@76f7d241, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4a335fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3f363cf5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3829ac1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4baf352a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1bb1fde8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@15eebbff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@22d6f11, org.springframework.test.context.event.EventPublishingTestExecutionListener@30990c1b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2453f95d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44828f6b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dbe250d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@553f1d75, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6e1d8f9e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3e34ace1]
+2023-06-04 19:22:01,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplicationTests using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 18988 (started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 19:22:01,029 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 19:22:01,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 19:22:01,759 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 19:22:01,813 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+2023-06-04 19:22:02,333 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 19:22:07,590 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 19:22:09,501 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplicationTests in 8.757 seconds (JVM running for 9.993)
+2023-06-04 19:22:09,756 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.swuyu.util.UtilTest], using SpringBootContextLoader
+2023-06-04 19:22:09,757 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.example.swuyu.util.UtilTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-06-04 19:22:09,757 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.swuyu.util.UtilTest]: UtilTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-04 19:22:09,762 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.swuyu.SwuyuApplication for test class com.example.swuyu.util.UtilTest
+2023-06-04 19:22:09,764 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-06-04 19:22:09,766 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5891b7c5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fc3529, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@38e46765, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@192f5f39, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4cd5fc46, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2965dd88, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3221588e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51141f64, org.springframework.test.context.event.EventPublishingTestExecutionListener@32c0fecc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@35ceec81, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d13379e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7c8df667, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@498e41a4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@be616f0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1f5d7fd5]
+2023-06-04 19:22:14,441 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 19:22:14,445 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed
+2023-06-04 19:22:46,894 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.swuyu.SwuyuApplicationTests], using SpringBootContextLoader
+2023-06-04 19:22:46,898 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.example.swuyu.SwuyuApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-06-04 19:22:46,898 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.swuyu.SwuyuApplicationTests]: SwuyuApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-04 19:22:46,968 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.swuyu.SwuyuApplication for test class com.example.swuyu.SwuyuApplicationTests
+2023-06-04 19:22:47,035 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-06-04 19:22:47,049 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@60f7cc1d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11eadcba, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4721d212, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b065145, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45cff11c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@207ea13, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4bff1903, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62dae540, org.springframework.test.context.event.EventPublishingTestExecutionListener@5827af16, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@654d8173, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@56c9bbd8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@630cb4a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@636e8cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f79a760, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@14f5da2c]
+2023-06-04 19:22:47,380 INFO org.springframework.boot.StartupInfoLogger [main] Starting SwuyuApplicationTests using Java 1.8.0_191 on DESKTOP-DVO56PT with PID 24476 (started by DELL in E:\workspace\swuyu\swuyu\swuyu)
+2023-06-04 19:22:47,383 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-04 19:22:47,945 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-04 19:22:47,947 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-04 19:22:47,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-06-04 19:22:48,495 INFO com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [main] Init DruidDataSource
+2023-06-04 19:22:54,961 INFO com.alibaba.druid.pool.DruidDataSource [main] {dataSource-1} inited
+2023-06-04 19:22:57,191 INFO org.springframework.boot.StartupInfoLogger [main] Started SwuyuApplicationTests in 10.104 seconds (JVM running for 11.32)
+2023-06-04 19:22:57,492 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closing ...
+2023-06-04 19:22:57,499 INFO com.alibaba.druid.pool.DruidDataSource [SpringApplicationShutdownHook] {dataSource-1} closed

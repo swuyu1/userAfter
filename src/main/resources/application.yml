@@ -1,0 +1,57 @@
+spring:
+  #    Redis
+  redis:
+    port: 6379
+    host: 127.0.0.1
+    password:
+    database: 0
+#  数据源
+  datasource:
+    url: jdbc:mysql://1.116.159.116:3306/project
+    username: project
+    password: ryGcEesipKH2776c
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    连接池
+    druid:
+      max-active: 10 # 最大活跃数量 默认8
+      min-idle: 0 # 最小空闲数 默认0
+      initial-size: 5 # 初始连接数
+      max-wait: 2000 # 获取连接最大等待时间 默认 -1
+      validation-query: select 1
+      validation-query-timeout: 5000
+      time-between-eviction-runs-millis: 2000 # 间隔多久进行检测需要关闭的空闲连接
+      min-evictable-idle-time-millis: 600000 # 配置连接在池中最小生存的时间
+      max-wait-thread-count: 20 # 最大等待线程数
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      file-size-threshold: 10MB
+      enabled: true
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:/mapper
+  type-aliases-package: com.example.cheetah.entity
+#    日志级别
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: INFO
+    javax.activation: info
+    org.apache.catalina: INFO
+    org.apache.commons.beanutils.converters: INFO
+    org.apache.coyote.http11.Http11Processor: INFO
+    org.apache.http: INFO
+    org.apache.tomcat: INFO
+    org.springframework: INFO
+    com.chinamobile.cmss.bdpaas.resource.monitor: DEBUG
+#    http日志
+server:
+  tomcat:
+    basedir: log
+    accesslog:
+      pattern: '%t %m %s %v %U %T'
+      enabled: true
+      directory: access-logs
+      buffered: false
+  port: 8081
