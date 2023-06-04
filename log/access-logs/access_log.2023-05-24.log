@@ -1,8 +1,0 @@
-[24/May/2023:10:25:37 +0800] GET 500 localhost /found 4.319
-[24/May/2023:10:26:05 +0800] GET 200 localhost /found 0.380
-[24/May/2023:10:26:28 +0800] GET 200 localhost /found 0.263
-[24/May/2023:10:26:47 +0800] GET 200 localhost /found 0.232
-[24/May/2023:10:27:47 +0800] GET 200 localhost /found 0.232
-[24/May/2023:10:27:51 +0800] GET 200 localhost /found 0.279
-[24/May/2023:10:28:00 +0800] GET 200 localhost /found 0.260
-[24/May/2023:10:28:02 +0800] GET 200 localhost /found 0.203
